@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Speedgame JS</title>
+  </head>
+  <body>
+    <section>
+      <h1 id="title">Speedgame</h1>
+      <div class="gamearea">
+        <h2>Your score is: <span id="score">0</span></h2>
+        <div class="circles">
+          <div class="circle"><p></p></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <button type="button" id="start">Start game</button>
+        <button type="button" id="stop">Stop game</button>
+      </div>
+    </section>
+    <section id="overlay">
+      <div class="modal">
+        <p>Ups, game over!</p>
+        <p id="result"></p>
+        <button type="button" id="close">Close</button>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
